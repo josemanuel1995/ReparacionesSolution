@@ -1,0 +1,6 @@
+@ReparacionesAPI_HostAddress = http://localhost:5251
+
+GET {{ReparacionesAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

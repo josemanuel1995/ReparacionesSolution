@@ -1,0 +1,16 @@
+body {
+  background: linear-gradient(145deg, #ffffff, #dcdcdc);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Animación sutil de brillo metálico */
+@keyframes metalAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
